@@ -1,0 +1,66 @@
+/*set main window background image*/
+MainWindow{
+    background-image: url(:/images/background.jpg);
+}
+
+/*set pushButton_1 normal style*/
+QPushButton#pushButton_1{
+            font-size: 15px;
+            color: red;
+            background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+            stop:0.224 #000000,
+            stop : 1 white,
+            stop : 0.987 #6b7c8a);
+}
+
+/*set pushButton_1 hover style*/
+QPushButton#pushButton_1:hover {
+    background-color: #333333;
+    border-color: #444444;
+}
+
+/*set pushButton_1 pressed style*/
+QPushButton#pushButton_1:pressed {
+    background-color: #ffffff;
+    border-color: #333333;
+    color: black;
+}
+
+
+QPushButton#pushButton_2{
+            font-size: 15px;
+            color: white;
+            background-color: red;
+}
+
+/*set QPushButton hover style sheet*/
+QPushButton:hover {
+    background-color: #333333;
+    border-color: #444444;
+}
+
+QPushButton#pushButton_3:pressed {
+    background-color: #ffffff;
+    border-color: #333333;
+    color: black;
+
+}
+
+/*set progressbar style sheet*/
+QProgressBar{
+    background-color: lightblue;
+    border-color: blue;
+}
+
+/*set progressbar-chunk style sheet*/
+QProgressBar:chunk{
+    background-color: pink;
+    border-color: black;
+}
+
+/*set QDial style sheet*/
+QDial{
+    /*set dial's background color after selected.*/
+    selection-background-color: darkBlue;
+}
+
